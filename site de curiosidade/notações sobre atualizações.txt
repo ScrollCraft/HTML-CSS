@@ -1,0 +1,4 @@
+- fazer a responsividade do main, da foto e do texto
+- mexer no roover do navbar
+- adicionar sombras no header
+- pensar em adcionar mais coisas e colocar os links reais nos "a"
