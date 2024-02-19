@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .esc > p {
+            display: none;
+        }
+
+        .esc:hover > p {
+            display: block;
+            color: white;
+            background-color: black;
+            width: fit-content;
+        }
+
+        .esc:hover {
+            color: blue ;
+        }
+    </style>
+</head>
+<body>
+    <h1> exemplo de hover</h1>
+    <p> passe o mause no texto abaixo</p>
+    <div>
+        <p>
+            passe o mause aqui...
+        </p>
+    </div>
+    <h1>exemplo de hover com texto escondido</h1>
+    <div class="esc">
+        passe o mause aqui
+        <p>texto escondido...</p>
+    </div>
+</body>
+</html>

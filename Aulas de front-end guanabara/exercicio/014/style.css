@@ -1,0 +1,33 @@
+.k {
+    background-color: blue;
+    color: white;
+}
+
+.l {
+    background-color: #0000ff;
+    color: white;
+}
+
+.s {
+    background-color: hsl(240, 100%, 50%);
+    color: white;
+}
+
+.o {
+    background-color: #3e3e8e99;
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.313), rgba(0, 128, 0, 0.47) 20%, rgba(255, 0, 0, 0.494))
+    
+} 
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+div{
+    display: inline-block;
+    background-color: gray;
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    text-transform: capitalize;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div:hover {
+    background-color: rgba(218, 165, 32, 0.394);
+}
+

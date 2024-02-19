@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>abrir em varias tela possiveis...</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/m.png" type="image/png">
+      <img src="imagem/g.png" alt="foto grande">
+    </picture>
+    <h1>reproduzir audio</h1>
+    <p>vamos aprender a reproduzir audio</p>
+    <br>
+    <h2>primeira forma</h2>
+    <br>
+    <audio src="media/Franklin Ringtone from GTA V.mp3" controls ></audio>
+    <h2> segundo metodo de reprodução</h2>
+    <audio preload="metadata" controls loop>
+        
+        <source src="media/Franklin Ringtone from GTA V.mp3" type="audio/mpeg">
+        <source src="media/Franklin-Ringtone-from-GTA-V.ogg" type="audio/ogg">
+        <source src="media/Franklin-Ringtone-from-GTA-V.wav" type="audio/wav">
+
+        <p>desculpe! infelizmente não foi possivel reproduzir, mas você pode baixar o audio <a href="media/Franklin Ringtone from GTA V.mp3">Aqui!</a></p>
+    </audio>
+    <br>
+    <h2>terceira forma</h2>
+
+     <audio preload="metadata" controls loop >
+        
+        <source src="media/Franklin-Ringtone-from-GTA-V.aac" type="audio/aac">
+
+        <p>desculpe! infelizmente não foi possivel reproduzir, mas você pode baixar o audio <a href="media/Franklin Ringtone from GTA V.mp3">Aqui!</a></p>
+    </audio>
+
+    xx
+</body>
+</html>

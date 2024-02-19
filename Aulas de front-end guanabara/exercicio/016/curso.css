@@ -1,0 +1,33 @@
+.p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    /** recomendado usar somente PX ou EM, eu prefiro EM**/
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h2 {
+    text-decoration: line-through;
+}
+
+.c {
+    font: italic bolder 1em 'courier new', monospace;
+}
+
+/* o .p e o .c são duas formas de representar a mesma configuração */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
