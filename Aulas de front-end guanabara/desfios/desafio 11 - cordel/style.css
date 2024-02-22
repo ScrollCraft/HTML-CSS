@@ -55,7 +55,7 @@ header p{
     text-align: justify;
 }
 
-@media (max-widht: 400px){
+@media (max-widht: 400px) {
     .normal1 .normal2 .normal3{
         background: white;
         font-style: italic;
@@ -129,3 +129,28 @@ footer a{
     color: white;
     font-weight: bolder;
 }
+
+@media (min-widht: 312px) and (max-widht: 600px) {
+    .normal1 .normal2 .normal3{
+        background: white;
+        font-style: italic;
+        padding: 50px 0px 50px 10px;
+        line-height: 50px;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    header h1{
+        padding: 60px 3px 2px 3px;
+        word-spacing: 2px;
+        font-size: 55px;
+        font-weight: bold;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .imagem #q1 #q2{
+        background-position: right center;
+    }
+}
+
