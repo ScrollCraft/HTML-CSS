@@ -55,6 +55,30 @@ header p{
     text-align: justify;
 }
 
+@media (max-widht: 400px){
+    .normal1 .normal2 .normal3{
+        background: white;
+        font-style: italic;
+        padding: 50px 0px 50px 10px;
+        line-height: 50px;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    header h1{
+        padding: 60px 3px 2px 3px;
+        word-spacing: 2px;
+        font-size: 55px;
+        font-weight: bold;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .imagem{
+        background-position: right center;
+    }
+}
+
 main > #q1{
     background: rgba(0, 0, 0, 0.341) url('imagem/background001.jpg') left top no-repeat fixed;
     background-size: cover;
