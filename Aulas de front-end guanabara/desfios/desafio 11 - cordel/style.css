@@ -90,10 +90,14 @@ footer a{
 }
 
 @media (min-width: 312px) and (max-width: 600px) {
-    #q1, #q2{
+    #q1{
         background-position: right center;
     }
     
+    #q2{
+        background-position: right center;
+    }
+
     .normal{
         font-size: 1.5rem;
     }
