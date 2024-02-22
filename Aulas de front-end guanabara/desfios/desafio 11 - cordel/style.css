@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: block;
+    background-image: linear-gradient(to bottom, hsla(0, 20%, 50%, 0.973),  rgba(0, 0, 0, 0.768));
+    height: 200px;
+}
+
+header h1{
+    padding: 60px 0px 2px 0px;
+    word-spacing: 2px;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header p{
+    text-align: center;
+}
+
+.normal1{
+    background: white;
+    font-style: italic;
+    padding: 50px 0px 50px 10px;
+    line-height: 50px;
+    font-size: 1.8em;
+    text-align: justify;
+}
+
+.normal2{
+    background: white;
+    font-style: italic;
+    padding: 50px 0px 50px 10px;
+    line-height: 50px;
+    font-size: 1.8em;
+    text-align: justify;
+}
+
+.normal3{
+    background: white;
+    font-style: italic;
+    padding: 50px 0px 50px 10px;
+    line-height: 50px;
+    font-size: 1.8em;
+    text-align: justify;
+}
+
+main > #q1{
+    background: rgba(0, 0, 0, 0.341) url('imagem/background001.jpg') left top no-repeat fixed;
+    background-size: cover;
+    height: 500px;
+    border-radius: 3px;
+    border-width: 1.1px;
+    border-style: solid;
+    
+}
+
+main > #q2{
+    background: rgba(0,0,0,0.341) url('imagem/background002.jpg') left top no-repeat fixed;
+    background-size: cover;
+    height: 500px;
+    border-radius: 3px;
+    border-width: 1.1px;
+    border-style: solid;
+
+}
+
+.imagem p{
+    padding: 110px 0px 0px 10px;
+    line-height: 40px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: justify;
+    font-style: italic;
+}
+
+.first{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.second{
+    text-shadow: 2px 2px 2px white;
+}
+
+footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.768);
+    padding: 10px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
