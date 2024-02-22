@@ -90,6 +90,10 @@ footer a{
 }
 
 @media (min-width: 312px) and (max-width: 600px) {
+    #q1, #q2{
+        background-position: right center;
+    }
+    
     .normal{
         font-size: 1.5rem;
     }
@@ -97,10 +101,6 @@ footer a{
     header h1{
         padding: 60px 3px 10px 3px;
         font-size: 52px;
-    }
-
-    #q1, #q2{
-        background-position: right center;
     }
 }
 
