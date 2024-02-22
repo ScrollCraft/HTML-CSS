@@ -64,6 +64,8 @@ main > #q1{
     border-radius: 3px;
     border-width: 1.1px;
     border-style: solid;
+    color: white;
+    text-shadow: 2px 2px 2px black;
     
 }
 
@@ -74,6 +76,7 @@ main > #q2{
     border-radius: 3px;
     border-width: 1.1px;
     border-style: solid;
+    text-shadow: 2px 2px 2px white;
 
 }
 
@@ -84,15 +87,6 @@ main > #q2{
     font-weight: bolder;
     text-align: justify;
     font-style: italic;
-}
-
-.first{
-    color: white;
-    text-shadow: 2px 2px 2px black;
-}
-
-.second{
-    text-shadow: 2px 2px 2px white;
 }
 
 footer{
