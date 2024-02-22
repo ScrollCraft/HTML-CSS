@@ -95,11 +95,11 @@ footer a{
     }
 
     header h1{
-        padding: 60px 3px 2px 3px;
+        padding: 60px 3px 10px 3px;
         font-size: 52px;
     }
 
-    .imagem{
+    #q1, #q2{
         background-position: right center;
     }
 }
