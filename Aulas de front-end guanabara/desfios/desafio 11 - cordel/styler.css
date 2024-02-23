@@ -61,7 +61,7 @@ header p{
 
 }
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
     #q1{
         background-position: right center;
     }
