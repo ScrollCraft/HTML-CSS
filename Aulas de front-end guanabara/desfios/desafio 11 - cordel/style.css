@@ -3,13 +3,65 @@
     padding: 0px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
 header{
     display: block;
     background-image: linear-gradient(to bottom, hsla(0, 20%, 50%, 0.973),  rgba(0, 0, 0, 0.768));
     height: 200px;
 }
 
-@media (min-width: 312px) and (max-width: 600px) {
+header h1{
+    padding: 60px 0px 2px 0px;
+    word-spacing: 2px;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+header p{
+    text-align: center;
+}
+
+.normal{
+    background: white;
+    font-style: italic;
+    padding: 50px 0px 50px 10px;
+    line-height: 50px;
+    font-size: 1.8em;
+    text-align: justify;
+}
+
+
+#q1{
+    background: rgba(0, 0, 0, 0.341) url('imagem/background001.jpg') left top no-repeat fixed;
+    background-size: cover;
+    height: 500px;
+    border-radius: 3px;
+    border-width: 1.1px;
+    border-style: solid;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+#q2{
+    background: rgba(0,0,0,0.341) url('imagem/background002.jpg') left top no-repeat fixed;
+    background-size: cover;
+    height: 500px;
+    border-radius: 3px;
+    border-width: 1.1px;
+    border-style: solid;
+    text-shadow: 2px 2px 2px white;
+
+}
+
+@media (max-width: 600px) {
     #q1{
         background-position: right center;
     }
@@ -28,58 +80,6 @@ header{
     }
 }
 
-header h1{
-    padding: 60px 0px 2px 0px;
-    word-spacing: 2px;
-    font-size: 60px;
-    font-weight: bold;
-    text-transform: capitalize;
-    text-align: center;
-}
-
-header a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-header p{
-    text-align: center;
-}
-
-.normal{
-    background: white;
-    font-style: italic;
-    padding: 50px 0px 50px 10px;
-    line-height: 50px;
-    font-size: 1.8em;
-    text-align: justify;
-}
-
-
-main > #q1{
-    background: rgba(0, 0, 0, 0.341) url('imagem/background001.jpg') left top no-repeat fixed;
-    background-size: cover;
-    height: 500px;
-    border-radius: 3px;
-    border-width: 1.1px;
-    border-style: solid;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    
-}
-
-main > #q2{
-    background: rgba(0,0,0,0.341) url('imagem/background002.jpg') left top no-repeat fixed;
-    background-size: cover;
-    height: 500px;
-    border-radius: 3px;
-    border-width: 1.1px;
-    border-style: solid;
-    text-shadow: 2px 2px 2px white;
-
-}
-
 .imagem p{
     padding: 110px 0px 0px 10px;
     line-height: 40px;
@@ -94,12 +94,6 @@ footer{
     color: rgba(255, 255, 255, 0.768);
     padding: 10px;
     text-align: center;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
 }
 
 
