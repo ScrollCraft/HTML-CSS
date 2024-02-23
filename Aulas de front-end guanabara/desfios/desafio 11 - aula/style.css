@@ -82,13 +82,13 @@ section.imagem p {
 
 section#q1{
     background-image: url(imagem/background001.jpg);
-    background-position:left center ;
+    background-position:right center ;
     box-shadow: 6px 6px 13px 0px black;
 }
 
 section#q2{
     background-image: url(imagem/background002.jpg);
-    background-position:left center ;
+    background-position:right center ;
     box-shadow: 6px 6px 13px 0px black;
 }
 
