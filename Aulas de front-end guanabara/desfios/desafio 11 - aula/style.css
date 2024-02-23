@@ -76,7 +76,7 @@ section.imagem{
 }
 
 section.imagem p {
-    width: 400px;
+    width: 300px;
     font-family: var(--fonte3);
     background-color: rgba(0, 0, 0, 0.097);
 }
