@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+        }
+
+        th{
+            background-color: grey;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        td{
+            text-transform: capitalize;
+            padding-left: 2px;
+        }
+
+        .spec td{
+            background-color: gray;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>desafio tabela mesclada 3</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="row" rowspan="2">area</th>
+                <th scope="row" rowspan="2">disciplinas</th>
+                <th scope="rowgroup" colspan="2">notas</th>
+                <th scope="row" rowspan="2">média</th>
+            </tr>
+            <tr>
+                <th scope="row">nota 1</th>
+                <th scope="row">nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="colgroup" rowspan="4">exatas</th>
+                <td>matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="spec">
+                <th scope="col" colspan="4">media de exatas</th>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="colgroup" rowspan="2">humanas</th>
+                <td>historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="spec">
+                <th scope="col" colspan="4">media de humanas</th>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
